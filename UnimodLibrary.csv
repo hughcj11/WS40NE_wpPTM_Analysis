@@ -1,0 +1,100 @@
+﻿Amino Acid,Unimod Accession,PTM Description,Biologically Relevant
+S,1,Acetyl,Yes
+T,1,Acetyl,Yes
+K,1,Acetyl,Yes
+A,1,Acetyl,Yes
+V,1,Acetyl,Not specified
+E,1,Acetyl,Not specified
+A,1,Acetyl,Not specified
+P,1,Acetyl,Not specified
+K,2,Amidated,Yes
+V,2,Amidated,Yes
+D,2,Amidated,Yes
+E,2,Amidated,Yes
+K,3,Biotin,Yes
+L,3,Biotin,Not specified
+N,3,Biotin,Not specified
+R,3,Biotin,Not specified
+E,3,Biotin,Not specified
+V,3,Biotin,Not specified
+I,3,Biotin,Not specified
+A,3,Biotin,Not specified
+N,4,Carbamidomethyl,Not specified
+T,4,Carbamidomethyl,Artefact
+H,4,Carbamidomethyl,Artefact
+K,4,Carbamidomethyl,Artefact
+A,4,Carbamidomethyl,Not specified
+I,4,Carbamidomethyl,Not specified
+S,4,Carbamidomethyl,Artefact
+R,4,Carbamidomethyl,Not specified
+D,4,Carbamidomethyl,Artefact
+C,4,Carbamidomethyl,Chemical Derivative
+Y,4,Carbamidomethyl,Artefact
+G,4,Carbamidomethyl,Not specified
+E,4,Carbamidomethyl,Artefact
+Q,4,Carbamidomethyl,Iodoacetic acid derivative
+V,4,Carbamidomethyl,Iodoacetic acid derivative
+L,4,Carbamidomethyl,Iodoacetic acid derivative
+I,5,Carbamyl,Not specified
+R,5,Carbamyl,Artefact
+K,5,Carbamyl,Yes
+P,5,Carbamyl,Not specified
+E,5,Carbamyl,Not specified
+T,5,Carbamyl,Chemical Derivative
+Q,5,Carbamyl,Not specified
+V,5,Carbamyl,Not specified
+S,5,Carbamyl,Chemical Derivative
+A,5,Carbamyl,Not specified
+Y,5,Carbamyl,Chemical Derivative
+D,5,Carbamyl,Not specified
+L,5,Carbamyl,Not specified
+N,5,Carbamyl,Not specified
+G,5,Carbamyl,Not specified
+H,5,Carbamyl,Not specified
+R,6,Carboxymethyl,Iodoacetic acid derivative
+N,6,Carboxymethyl,Iodoacetic acid derivative
+R,7,Deamidated,Yes
+Q,7,Deamidated,Artefact
+N,7,Deamidated,Artefact
+S,21,Phospho,Yes
+T,21,Phospho,Yes
+Y,21,Phospho,Yes
+S,23,Dehydrated,Yes
+Y,23,Dehydrated,Yes
+T,23,Dehydrated,Yes
+D,23,Dehydrated,Chemical Derivative
+Q,28,Gln->pyro-Glu,Artefact
+E,30,Cation:Na,Artefact
+D,30,Cation:Na,Artefact
+R,34,Methyl,Yes
+K,34,Methyl,Yes
+K,35,Oxidation,Yes
+M,35,Oxidation,Not specified
+R,35,Oxidation,Yes
+Y,35,Oxidation,Yes
+N,35,Oxidation,Yes
+P,35,Oxidation,Yes
+D,35,Oxidation,Yes
+R,36,Dimethyl,Yes
+K,37,Trimethyl,Yes
+R,37,Trimethyl,Chemical Derivative
+C,53,4-hydroxynonenal,Yes
+K,53,4-hydroxynonenal,Yes
+C,121,GlyGly,Other
+T,121,GlyGly,Yes
+K,121,GlyGly,Yes
+S,121,GlyGly,Yes
+A,122,Formyl,Yes
+K,209,Acrolein112,Other
+N,213,ADP-Ribosyl,Yes
+E,213,ADP-Ribosyl,Yes
+K,213,ADP-Ribosyl,Yes
+R,213,ADP-Ribosyl,Yes
+K,255,Acetald+28 / Dimethyl,Yes
+K,378,Carboxyethyl / Lactyl,Yes
+R,425,Dioxidation,Yes
+Y,425,Dioxidation,Yes
+K,425,Dioxidation,Yes
+P,425,Dioxidation,Yes
+C,425,Dioxidation,Yes
+K,1289,Butyryl,Yes
