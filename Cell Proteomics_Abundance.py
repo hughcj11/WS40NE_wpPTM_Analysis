@@ -118,3 +118,20 @@ merged_df['EnsemblID_Hs'] = merged_df['EnsemblID_Hs']
 
 # Write the merged dataframe to a new CSV file
 merged_df.to_csv("/Users/chelseahughes/Desktop/PTM Proteomic Analysis/Protein Abundance/SighProteinAbundanceEnsembleID.csv")
+
+
+
+
+#Code to find all the ensemble ids for all proteins to use in CLUST
+SigProteins = pd.read_csv('/Users/chelseahughes/Desktop/PTM Proteomic Analysis/Protein Abundance/quantile.csv')
+
+EnsembleID = pd.read_csv("/Users/chelseahughes/Desktop/PTM Proteomic Analysis/Testing code/Orthofinder_blast_merge_Hs_230628_MapIDS.csv", encoding='latin-1')
+
+# Merge the two dataframes based on the "Protein Name" column
+merged_df = pd.merge(SigProteins, EnsembleID, how='left', left_on='Protein Name', right_on='Austrofundulus_limnaeus')
+
+# Add a new column to the first dataframe with values from the "EnsemblID_Hs" column
+merged_df['EnsemblID_Hs'] = merged_df['EnsemblID_Hs']
+
+# Write the merged dataframe to a new CSV file
+merged_df.to_csv("/Users/chelseahughes/Desktop/PTM Proteomic Analysis/Protein Abundance/ProteinsforCLUST.csv")

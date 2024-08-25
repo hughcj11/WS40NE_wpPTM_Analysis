@@ -38,16 +38,6 @@ The code Cell Proteomics Statistics takes the place of the Excel Calculations wo
 
     Full_M_Values: generates the m value in a csv file.
 
-    Embryo Anoxia Total PTM: generates the global relative abundances of each PTM (independent of residue and protein). 
-
-    Datastats: statistics on the relative abundance data for each unique hPTM (residue,PTM,and protein).
-
-    DatastatsGlobal: statistics on the relative abundance data global PTM changes (independent of residue and protein)
-
-    ResidueCoverage:the relative coverage of each modifiable residue (a residue shown as capable of having a PTM). For example, how often are globally modifiable K sites covered by PTMs?
-
-    ResidueCoverageByPTM:shows the relative coverage by a specific PTM for each modifiable residue (a residue shown as capable of having a PTM). For example, how often K covered by Ub?
-
 
 Protein Abundance Analysis: (code files: Cell Proteomics_Abundance)
  The following code will generate the following documents using the Skyline csv file:
