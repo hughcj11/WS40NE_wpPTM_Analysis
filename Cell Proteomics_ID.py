@@ -1,9 +1,9 @@
 #Author: Chelsea Hughes
 import csv
 import re
-base_path = "/Users/chelseahughes/Desktop/PTM Proteomic Analysis/Proteomics Library"
+base_path = "/Users/chelseahughes/Desktop/PTM Proteomic Analysis/Proteomics Library/"
 #Below creates a dictionary within the code of unimod IDs and their biological relevance for later use.
-with open("/Users/chelseahughes/Desktop/PTM Proteomic Analysis/Testing code.csv") as csvfile:
+with open("/Users/chelseahughes/Desktop/PTM Proteomic Analysis/Testing code/UnimodLibrary.csv") as csvfile:
     cellreader = csv.reader(csvfile, delimiter=',')
     dictionary={}
     for row in cellreader:
@@ -16,7 +16,7 @@ with open("/Users/chelseahughes/Desktop/PTM Proteomic Analysis/Testing code.csv"
 #Fix file name below
 
 
-#with open(base_path+"EmbryohPTMs_Unimod.csv") as csvfile:
+with open(base_path+"Protein_ptms_for_WS40NE_wpPTM.csv") as csvfile:
     #For a new csv file, change the above parenthesis to reflect your base path and specific document
     cellreader = csv.reader(csvfile, delimiter=',')
     abundance={}
@@ -112,8 +112,6 @@ with open(base_path+'IntermediatePTMSheet.csv', 'w') as csvfile:
         cellwriter.writerow(row_answer)
 
 
-##Fix code below to not refer to histones
-
 #The code below is transferring the information above into the second csv file (IntermediatePTMSheet2) that will ultimately produce hPTM IDs
 with open(base_path+'IntermediatePTMSheet2.csv', 'w') as csvfile:
     cellwriter = csv.writer(csvfile, delimiter=',')
@@ -192,7 +190,7 @@ with open(base_path+'ProteinPTMLibrary.csv', 'w') as csvfile:
 
 
 
-#The below document is a list of the unique proteins identified.
+#The below document is a list of the unique protein names identified.It is not a list of unique histone IDs 
 with open(base_path+'UniqueProteinLibrary.csv', 'w') as csvfile:
     cellwriter = csv.writer(csvfile, delimiter=',')
     pa=set(pa)
