@@ -1,5 +1,5 @@
 # PTM_Proteomic_Analysis
-https://github.com/hughcj11/
+https://github.com/hughcj11/WS40NE_wpPTM_Analysis
 
 The following code works on a csv file downloaded from Skyline, which should contain the following information in this order: Peptide, Protein, Protein Description, Unimod Accession, Peptide Modified Sequence, Begin Pos, End Pos, Average Measured Retention Time, and the Normalized Area of each Replicate. If Skyline is listing replicates one by one in a row instead of columns, check the "Pivot Replicates" button. It is critical that the csv file is ordered this way so that the code reads the correct columns.
     *Note: For this code to work, the Skyline output for Unimod Accession should contain only the peptide sequence and the unimod in (). Any mass shifts that do not have Unimod IDs are displayed in [] and will be removed at this time. This is necessary so that the code can correctly count the residues. To account for these mass shifts without unimod IDs, additional code will need to be written in this file.
