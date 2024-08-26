@@ -122,7 +122,7 @@ merged_df.to_csv("/Users/chelseahughes/Desktop/PTM Proteomic Analysis/Protein Ab
 
 
 
-#Code to find all the ensemble ids for all proteins to use in CLUST
+#Code to find all the ensemble ids for all proteins to use in CLUST using the now normalised data
 SigProteins = pd.read_csv('/Users/chelseahughes/Desktop/PTM Proteomic Analysis/Protein Abundance/quantile.csv')
 
 EnsembleID = pd.read_csv("/Users/chelseahughes/Desktop/PTM Proteomic Analysis/Testing code/Orthofinder_blast_merge_Hs_230628_MapIDS.csv", encoding='latin-1')
@@ -135,3 +135,10 @@ merged_df['EnsemblID_Hs'] = merged_df['EnsemblID_Hs']
 
 # Write the merged dataframe to a new CSV file
 merged_df.to_csv("/Users/chelseahughes/Desktop/PTM Proteomic Analysis/Protein Abundance/ProteinsforCLUST.csv")
+
+#To use CLUST, run the following:
+
+#/Users/chelseahughes/Library/Python/3.10/bin/clust "/Users/chelseahughes/Desktop/PTM Proteomic Analysis/Protein Abundance/CLUSTFormattedReadFile.csv" -r "/Users/chelseahughes/Desktop/PTM Proteomic Analysis/Protein Abundance/CLUSTReplicateFile.csv" -o "/Users/chelseahughes/Desktop/PTM Proteomic Analysis/Protein Abundance/ClustOutput" 
+
+
+#CLUST creates a new directory for the results within the current working directory.
